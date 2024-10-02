@@ -1,0 +1,58 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    margin-left:4%;
+  }
+  h1{
+    margin-left:4%
+  }
+  
+  .container1 > * {
+    flex: 1 1 200px; 
+    min-width: 200px; 
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    margin-left:4%;
+  }
+  
+  .container2 > * {
+    flex: 1 1 200px; 
+    min-width: 200px; 
+  }
+  
+  .container3 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    margin-left: 4%;
+  }
+  
+  .container3 > * {
+    flex: 1 1 200px; 
+    min-width: 200px; 
+  }
+  .container4 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    margin-left: 4%;
+  }
+  
+  .container4 > * {
+    flex: 1 1 200px; 
+    min-width: 200px; 
+  }
+  .container5{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    margin-left: 4%;
+  }
+  .container5 > * {
+    flex: 1 1 200px; 
+    min-width: 200px; 
+  }
