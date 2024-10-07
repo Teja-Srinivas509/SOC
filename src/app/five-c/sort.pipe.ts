@@ -1,8 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { registerLocaleData } from '@angular/common';
-import localeFr from '@angular/common/locales/fr';
+// import { registerLocaleData } from '@angular/common';
+// import localeFr from '@angular/common/locales/fr';
 
-registerLocaleData(localeFr);
+// registerLocaleData(localeFr);
 
 
 @Pipe({
@@ -10,7 +10,7 @@ registerLocaleData(localeFr);
   standalone:true
 })
 export class SortPipe implements PipeTransform {
-  transform(value: any[], args?: string): any[] {
+  transform(value: any[], args?: string) {
     if (!value) return [];
 
     if (args === 'prodName') {

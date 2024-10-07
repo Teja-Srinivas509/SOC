@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './two-b.component.css'
 })
 export class TwoBComponent {
-  courses: any[] = [
+  courses= [
     { id: 1, name: "TypeScript" },
     { id: 2, name: "Angular" },
     { id: 3, name: "Node JS" },

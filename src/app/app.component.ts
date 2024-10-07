@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import {OneCComponent} from './one-c/one-c.component'
+import {OneDComponent} from './one-d/one-d.component'
 import { TwoAComponent } from './two-a/two.component';
 import { TwoBComponent } from './two-b/two-b.component';
 import { TwoCComponent } from './two-c/two-c.component';
@@ -18,10 +19,14 @@ import { FiveBComponent } from './five-b/five-b.component';
 import { FiveCComponent } from './five-c/five-c.component';
 import { SixAComponent } from './six-a/six-a.component';
 import { SixBComponent } from './six-b/six-b.component';
+import {SixCComponent} from './six-c/six-c.component';
+import {SixDComponent}  from './six-d/six-d.component'
 import { SevenAComponent } from './seven-a/seven-a.component';
 import { SevenBComponent } from './seven-b/seven-b.component';
 import {RegistrationFormComponent} from './registration-form/registration-form.component'
-
+import { EightAComponent } from './eight-a/eight-a.component';
+import {EightBComponent} from './eight-b/eight-b.component'
+import {EightCComponent} from './eight-c/eight-c.component'
 
 @Component({
   selector: 'app-root',
@@ -31,6 +36,8 @@ import {RegistrationFormComponent} from './registration-form/registration-form.c
     ReactiveFormsModule,
     RouterOutlet,
     FormsModule,
+    OneCComponent,
+    OneDComponent,
     TwoAComponent,
     TwoBComponent,
     TwoCComponent,
@@ -46,8 +53,13 @@ import {RegistrationFormComponent} from './registration-form/registration-form.c
     FiveCComponent,
     SixAComponent,
     SixBComponent,
+    SixCComponent,
+    SixDComponent,
     SevenAComponent,
     SevenBComponent,
+    EightAComponent,
+    EightBComponent,
+    EightCComponent,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
