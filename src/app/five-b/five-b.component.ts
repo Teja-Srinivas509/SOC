@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { registerLocaleData } from '@angular/common';
-import localeFrench from '@angular/common/locales/fr';
+// import { registerLocaleData } from '@angular/common';
+// import localeFrench from '@angular/common/locales/fr';
 import { CommonModule } from '@angular/common';
 
-registerLocaleData(localeFrench);
+// registerLocaleData(localeFrench);
 
 @Component({
   selector: 'app-five-b',

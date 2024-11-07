@@ -13,4 +13,7 @@ export class OneCComponent implements OnInit {
   ngOnInit() {
       
   }
+  toggleButton (){
+    this.course = this.course === 'Angular' ? 'TypeScript' : 'Angular'
+  }
 }

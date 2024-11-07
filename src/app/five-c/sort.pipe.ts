@@ -25,3 +25,27 @@ export class SortPipe implements PipeTransform {
     return value;
   }
 }
+
+
+// import { Pipe, PipeTransform } from '@angular/core';
+
+// @Pipe({
+//   name: 'sort',
+//   standalone: true
+// })
+// export class SortPipe implements PipeTransform {
+//   transform(value: any[], args?: string) {
+//     if (!value) return []; 
+
+//     const sortingFunction = (a: any, b: any) => {
+//       if (args === 'prodName') {
+//         return a.productName.localeCompare(b.productName);
+//       } else if (args === 'price') {
+//         return a.price - b.price;
+//       }
+//       return 0; 
+//     };
+
+//     return value.sort(sortingFunction);
+//   }
+// }

@@ -28,14 +28,25 @@ import { EightAComponent } from './eight-a/eight-a.component';
 import {EightBComponent} from './eight-b/eight-b.component'
 import {EightCComponent} from './eight-c/eight-c.component'
 
+import {OneBComponent} from './one-b/one-b.component'
+import {NineAComponent} from './nine-a/nine-a.component'
+import {NineBComponent} from './nine-b/nine-b.component'
+import { HttpClientModule } from '@angular/common/http';
+import {TenAComponent} from './ten-a/ten-a.component'
+import {TenBComponent} from './ten-b/ten-b.component'
+import { TenCComponent } from './ten-c/ten-c.component';
+import { TenDComponent } from './ten-d/ten-d.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
+    HttpClientModule,
     RegistrationFormComponent,
     ReactiveFormsModule,
     RouterOutlet,
     FormsModule,
+    OneBComponent,
     OneCComponent,
     OneDComponent,
     TwoAComponent,
@@ -60,6 +71,8 @@ import {EightCComponent} from './eight-c/eight-c.component'
     EightAComponent,
     EightBComponent,
     EightCComponent,
+    NineAComponent,
+    NineBComponent,TenAComponent,TenBComponent,TenCComponent,TenDComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

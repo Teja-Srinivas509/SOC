@@ -1,5 +1,5 @@
 <h1>3-b</h1>
-<div [class.bordered]="isBordered">
+<div [ngClass]="{bordered:isBordered}">
     Border {{ isBordered ? "ON" : "OFF" }}
 </div><br/>
 <br/>
